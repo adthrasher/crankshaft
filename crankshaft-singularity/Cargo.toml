@@ -1,0 +1,24 @@
+[package]
+name = "crankshaft-singularity"
+version = "0.1.0"
+license.workspace = true
+edition.workspace = true
+authors.workspace = true
+homepage.workspace = true
+repository.workspace = true
+rust-version.workspace = true
+
+[dependencies]
+bollard.workspace = true
+clap.workspace = true
+clap-verbosity-flag.workspace = true
+eyre.workspace = true
+indexmap.workspace = true
+serde.workspace = true
+shlex.workspace = true
+tokio.workspace = true
+tracing-log.workspace = true
+tracing-subscriber.workspace = true
+
+[lints]
+workspace = true
